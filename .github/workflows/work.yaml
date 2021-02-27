@@ -6,7 +6,7 @@ on:
             - master
     workflow_dispatch: # 手动触发
     schedule:
-        - cron: '33 19 * * *'
+        - cron: '0 0 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
